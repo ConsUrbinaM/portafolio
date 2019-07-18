@@ -1,128 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Constanza Urbina</title>
-  </head>
-  <body>
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">
-                        <img src="img/Logo.jpg" id="logo" alt="logo Constanza Urbina"/> 
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a id="inicio" class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a id="proyectos" class="nav-link" href="proyectos.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a id="sobremi" class="nav-link" href="about.html">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="sobremi" class="nav-link" href="contacto.html">Contacto</a>
-                      </li>                    
-                  </ul>
-                </div>
-              </nav>
-
-        <div id= "container-one" class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                <h1 id="titulo-inicio">¡Hola! Mi nombre es <span>Constanza Urbina</span> y soy <span>Diseñadora UX</span>, mi objetivo es buscar soluciones para las personas de forma creativa e innovadora </h1>
-                </div>              
-            </div>
-        </div>
-
-
-
-        <div id="container-two" class="container" >
-        
-        <div class="card-deck">
-                <div class="card">
-                  <a href="plantada.html" ><img src="img/Marketplace.jpg" class="card-img-top" alt="Plantada Marketplace"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Marketplace | Plantada </h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <a href="cumplo.html"><img src="img/Cumplo.jpg" class="card-img-top" alt="App Cumplo"></a>
-                  <div class="card-body">
-                      <h5 class="card-title">Financial app | Cumplo </h5>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <img src="img/ChileValora.jpg" class="card-img-top" alt="Proyecta Chile">
-                  <div class="card-body">
-                    <h5 class="card-title">Proyecta Chile</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-        </div>
-
-        
-    
-
-    <footer class="container">
-      <div class="row">
-        <div class="col">
-            <h4><span>Conóceme</span></h4>
-            <p>¿Tienes preguntas, comentarios, o simplemente necesitas una recomendación?</p>
-            <p>Escríbeme</p>
-            <a class="boton_personalizado">constanzaurbina.m@gmail.com<span class="sr-only">(current)</span></a>
-        </div>
-      </div> 
-      <div class="row">
-        <div class="col">
-            <p id="enlaces_contacto"></a>Linkedin <span>  |  </span> CV <span>  |  </span> Instagram</p>
-            <p id="pequeño">©Constanza Urbina | Diseñadora UX 2019</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Constanza Urbina</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/Logo.jpg" id="logo" alt="logo Constanza Urbina"/> 
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a id="inicio" class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="proyectos" class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a id="sobremi" class="nav-link" href="about.html">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+          <a id="sobremi" class="nav-link" href="contacto.html">Contacto</a>
+        </li>                    
+      </ul>
+    </div>
+  </nav>
+  <header class="container">
+    <div class="row">
+      <div class="col-lg-9 col-9">
+        <h1>¡Hola! Mi nombre es <span class="txt-sub">Constanza Urbina</span> y soy <span>Diseñadora UX</span>, mi objetivo es buscar soluciones para las personas de forma creativa e innovadora</h1>
+      </div>
+    </div>
+  </header>
+  <section id="proyectos" class="container pd-sct">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <h2>Mis Proyectos</h2>
+      </div>
+    </div>
+    <div class="row pd-proyecto">
+      <div class="col-lg-5">
+        <img class="img-fluid img-proyecto" src="img/portada_marketplace.jpg" alt="Plantada">
+      </div>
+      <div class="col-lg-7">
+        <div class="pos-txt">
+          <h3 class="txt-sub">Plantada</h3>
+          <p>Diseño de página web e-commerce para emprendimiento sobre terrarios y minimundos</p>
+          <a href="plantada.html">Ver Caso de Estudio</a>
         </div>
       </div>
-            <!--<ul>
-              <a href="https://drive.google.com/open?id=1kukRNrF38CLpl3KJc1DU95gMkI0bnIxP">
-                <p>
-                  Mi CV <span>|</span>
-                </p>
-              </a>
-              <a href="linkedin.com/in/constanza-paz-urbina-montesinos-473746109">
-                <p>
-                  Linkedin <span>|</span>
-                </p>
-              </a>
-              <a href="https://www.instagram.com/laperrogatopezyconstanza/">
-                <p>
-                  Instagram
-                </p>
-              </a>
-          
-            </ul>-->
-            
-    </footer> 
-    
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    </div>
+    <div class="row pd-proyecto">
+      <div class="col-lg-5">
+        <img class="img-fluid img-proyecto" src="img/portada_cumplo.jpg" alt="Cumplo App">
+      </div>
+      <div class="col-lg-7">
+        <div class="pos-txt">
+          <h3 class="txt-sub">Cumplo</h3>
+          <p>Rediseño de progressive web app que mejora el flujo de inversiones y capta a nuevos usuarios para startup Cumplo</p>
+          <a href="plantada.html">Ver Caso de Estudio</a>
+        </div>
+      </div>
+    </div>
+    <div class="row pd-proyecto">
+      <div class="col-lg-5">
+        <img class="img-fluid img-proyecto" src="img/Portada_chilevalora.jpg" alt="Cumplo App">
+      </div>
+      <div class="col-lg-7">
+        <div class="pos-txt">
+          <h3 class="txt-sub">Chile Valora Web</h3>
+          <p>Rediseño de progressive web app que mejora el flujo de inversiones y capta a nuevos usuarios para startup Cumplo</p>
+          <a href="plantada.html">Ver Caso de Estudio</a>
+        </div>
+      </div>
+    </div>
+    <div class="row pd-proyecto">
+      <div class="col-lg-5">
+        <img class="img-fluid img-proyecto" src="img/Portada_vida.jpg" alt="Cumplo App">
+      </div>
+      <div class="col-lg-7">
+        <div class="pos-txt">
+          <h3 class="txt-sub">ViDA App</h3>
+          <p>Rediseño de progressive web app que mejora el flujo de inversiones y capta a nuevos usuarios para startup Cumplo</p>
+          <a href="plantada.html">Ver Caso de Estudio</a>
+        </div>
+      </div>
+    </div>
+    <div class="row pd-proyecto">
+      <div class="col-lg-5">
+        <img class="img-fluid img-proyecto" src="img/Portada_vida.jpg" alt="Cumplo App">
+      </div>
+      <div class="col-lg-7">
+        <div class="pos-txt">
+          <h3 class="txt-sub">América Solidaria</h3>
+          <p>Rediseño de experiencia para voluntarios y ex voluntarios de organización América Solidaria</p>
+          <a href="plantada.html">Ver Caso de Estudio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Conóceme</h2>
+        <p>¿Tienes preguntas, comentarios, o simplemente necesitas una recomendación?</p>
+        <span>Escríbeme a</span>
+        <span class="mail">constanzaurbina.m@gmail.com</span>
+      </div>
+    </div> 
+    <div class="row pd-proyecto">
+      <div class="col-lg-12">
+        <p></a>Linkedin <span>  |  </span> CV <span>  |  </span> Instagram</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h6>©Constanza Urbina | Diseñadora UX 2019</h6>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
