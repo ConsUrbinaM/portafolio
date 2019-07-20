@@ -1,3 +1,51 @@
+/*body{
+    background-color: #f8f9fa;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .txt-sub{
+    color: #FF4081;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family:'Oswald', sans-serif;
+    letter-spacing: 1px;
+  }
+  header, footer{
+    padding: 12% 0;
+  }
+  .pd-sct{
+    padding: 8% 0;
+  }
+  .pd-proyecto{
+    padding: 3% 0;
+  }
+  .pos-txt{
+    padding: 25% 5%;
+  }
+  a{
+    text-decoration: none;
+    color: #FF4081;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #f8f9fa ;
+    background-color: #FF4081;
+    padding: 2% 2%;
+  }
+  .mail{
+    color: #f8f9fa ;
+    background-color: #FF4081;
+    padding: 1% 1%;
+  }
+  .navbar-light .navbar-toggler{
+    border: none;
+  }
+  #logo{
+    max-width: 100px;
+  }
+
+  */
+
+      
 body{
     background-color: #f8f9fa;
     font-family: 'Open Sans', sans-serif;
@@ -23,8 +71,8 @@ body{
     padding: 12% 0;
   }
   
-  pd-sct{
-    padding: 8% 0;
+  .pd-sct{
+    padding: 8% 0 !important;
   }
   .pd-proyecto{
     padding: 3% 0;
@@ -34,6 +82,10 @@ body{
   }
   .pos-txt{
     padding: 25% 5%;
+  }
+
+  .pos2-txt{
+    padding: 30% 5%;
   }
   
   a{
@@ -51,3 +103,37 @@ body{
     background-color: #FF4081;
     padding: 1% 1%;
   }
+  .img-ref{
+    max-width: 30%;
+    text-align: center;
+    margin: 0% 30%;
+  }
+  .up-text{
+      padding: 0% 5%;
+  }
+
+  .space-text{
+    padding: 5% 5%;
+  }
+
+  .img-icon{
+      height: 50px;
+      width: 50px;
+      margin: 20% 30%;
+
+  }
+
+  /*Imágenes Cumplo*/
+
+  #img-cumplo{
+      background-image: url(img/cumplo1.jpg)
+  }
+
+  .img-user{
+      width: 696px;
+      height: 522px;
+      text-align: center;
+      margin: 0% 20%;
+  }
+  
+
