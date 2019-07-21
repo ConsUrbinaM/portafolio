@@ -57,6 +57,11 @@ body{
   #logo{
     max-width: 100px;
   }
+
+  .txt-fluid{
+    padding: 0% 5%;
+    color: #ffff;
+  }
   
   .txt-sub{
     color: #FF4081;
@@ -65,6 +70,10 @@ body{
   h1, h2, h3, h4, h5, h6{
     font-family:'Oswald', sans-serif;
     letter-spacing: 1px;
+  }
+
+  .p-min{
+    font-size: 13px;
   }
   
   header, footer{
@@ -87,6 +96,10 @@ body{
   .pos2-txt{
     padding: 30% 5%;
   }
+
+  .pos-img{
+    padding: 5% 0%;
+  }
   
   a{
     text-decoration: none;
@@ -104,7 +117,7 @@ body{
     padding: 1% 1%;
   }
   .img-ref{
-    max-width: 30%;
+    max-width: 50%;
     text-align: center;
     margin: 0% 30%;
   }
@@ -117,23 +130,64 @@ body{
   }
 
   .img-icon{
-      height: 50px;
-      width: 50px;
+      height: 35px;
+      width: 35px;
       margin: 20% 30%;
 
+  }
+
+  /*Imágenes sobre mi*/
+  #cum{
+    margin: 10% 0%
   }
 
   /*Imágenes Cumplo*/
 
   #img-cumplo{
-      background-image: url(img/cumplo1.jpg)
+      background-image: url(img/cumplo_portada.jpg);
+      opacity : 0.7;
   }
 
-  .img-user{
+  /*.img-user{
       width: 696px;
       height: 522px;
       text-align: center;
       margin: 0% 20%;
-  }
+  }*/
   
+   /*Imágenes Chile Valora*/
+
+   #img-chv{
+    background-image: url(img/chilevalora_portada.jpg);
+    opacity : 0.7;
+    
+
+}
+
+/*Imágenes ViDA*/
+
+#img-vida{
+  background-image: url(img/vida_portada.jpg);
+  opacity : 0.7;
+  
+
+}
+
+/*Imágenes Plantada*/
+
+#img-market{
+  background-image: url(img/market_portada.jpg);
+  opacity : 0.7;
+  
+
+}
+
+/*Imágenes AS*/
+
+#img-as{
+  background-image: url(img/as_portada.jpg);
+  opacity : 0.7;
+  
+
+}
 
