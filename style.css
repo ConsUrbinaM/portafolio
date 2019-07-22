@@ -164,6 +164,18 @@ body{
 
 }
 
+/*#habilidades{
+  width:323.33px;
+  height: 384.08px;
+}
+
+#ocupaciones{
+  width:323.33px;
+  height: 307.79px;
+}*/
+
+
+
 /*Imágenes ViDA*/
 
 #img-vida{
@@ -180,6 +192,10 @@ body{
   opacity : 0.7;
   
 
+}
+
+#mrk3{
+  padding: 0% 15%;
 }
 
 /*Imágenes AS*/
